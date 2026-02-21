@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
 import Forecast from "./components/Forecast";
-
+    
 function App() {
   const [weather, setWeather] = useState(null);
   const [forecast, setForecast] = useState(null);
