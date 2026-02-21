@@ -4,7 +4,7 @@ function Forecast({ forecast }) {
   const dailyData = forecast.list.filter(item =>
     item.dt_txt.includes("12:00:00")
   );
-
+     
   return (
     <div className="forecast">
       <h3 className="forecast-heading">5 Day Forecast</h3>
